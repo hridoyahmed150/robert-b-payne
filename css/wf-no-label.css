@@ -1,0 +1,133 @@
+::-webkit-input-placeholder {
+    color: #333;
+}
+::-moz-placeholder {
+    color: #333;
+}
+:-ms-input-placeholder {
+    color: #333;
+}
+:-moz-placeholder {
+    color: #333;
+}
+
+#container,html.embed{
+    background:0 0
+}
+.wufoo input.file,.wufoo input.text,.wufoo select.select,.wufoo textarea.textarea{
+    font-size:15px;
+    line-height:1.6;
+    padding:7px 10px;
+    box-shadow:none!important;
+    background:#fff!important;
+    max-width:100%;
+    box-sizing:border-box;
+    color: #000;
+    border: 1px solid #6e6e6e;
+    border-radius: 0;
+}
+.safari .wufoo li.focused input.file,.wufoo label.desc,.wufoo li div,.wufoo li div label,.wufoo li span,.wufoo li span label,.wufoo li.focused div,.wufoo li.focused div label,.wufoo li.focused label.desc,.wufoo li.focused legend.desc,.wufoo li.focused span,.wufoo li.focused span label{
+    color:#000!important
+}
+.wufoo textarea.textarea{
+    min-height:70px;
+}
+.wufoo label.desc{
+    font-weight:400;
+    font-size:100%;
+    display: none !important;
+}
+form.wufoo {
+    padding-bottom: 0;
+}
+form li.phone>span>label{
+    display:none
+}
+form ul li{
+    margin-bottom:0
+}
+form ul li#errorLi{
+    display:none!important
+}
+
+form ul li.buttons{
+    padding-top: 5px;
+    text-align:center
+}
+
+form ul li.buttons input#saveForm{
+    text-transform:uppercase;
+    color:#fff;
+    font-size: 18px;
+    padding: 8px 20px;
+    font-weight:700;
+    margin-right:0;
+    outline:0;
+    cursor:pointer;
+    transition:.3s;
+    width: 100%;
+    display: block;
+    text-align: center;
+    text-shadow: none;
+    border: 2px solid #ed1f24;
+    background: #ed1f24;
+    border-radius: 0;
+}
+
+form ul li.buttons input#saveForm:hover{
+    color: #ed1f24;
+    background: #fff;
+    border-collapse: #ed1f24;
+}
+form ul li.buttons input#saveForm:active,
+form ul li.buttons input#saveForm:focus {
+    outline: none;
+}
+
+form ul li.btn-style-2 + li.buttons {
+    text-align: right;
+}
+
+form ul li.btn-style-2 + li.buttons input#saveForm {
+    background-color: #32437f;
+    border: 2px solid #FFF;
+    display: inline-block;
+    width: auto;
+    padding: 11px 35px 8px;
+}
+
+form ul li.btn-style-3 + li.buttons {
+    text-align: left;
+}
+
+form ul li.btn-style-2 + li.buttons input#saveForm:hover {
+    background-color: #32437f;
+    border: 2px solid #FFF;
+    color: #fff;
+}
+
+form ul li.btn-style-3 + li.buttons input#saveForm {
+    display: inline-block;
+    width: auto;
+}
+
+form ul li.btn-style-3 + li.buttons input#saveForm:hover {
+    color: #ed1f24;
+    background: #fff;
+    border-collapse: #ed1f24;
+}
+
+input.btTxt{
+    padding:7px 15px
+}
+
+@media screen and (max-width:480px){
+    .wufoo input.file,.wufoo li:not(.phone) input.text,.wufoo select.select,.wufoo textarea.textarea{
+        width:100%!important;
+        min-width:auto!important
+    }
+}
+.wufoo li.focused{
+    background:0 0!important;
+    outline:0!important
+}

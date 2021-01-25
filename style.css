@@ -1,0 +1,56 @@
+/*
+Theme Name: Robert B Payne
+Theme URI: http://www.robertbpayne.com/
+Author: Advice Interactive
+Author URI: https://www.adviceinteractivegroup.com;
+Version: 1.0
+License: GNU General Public License
+License URI: #
+*/
+
+@media (min-width: 992px){
+	.cf7-captcha-right{
+		justify-content: flex-end;
+	}
+	.cf7-captcha-right .wpcf7-form-control-wrap{
+		width: auto !important;
+	}
+}
+
+
+.tp-caption.tp-withaction{
+	position: relative;
+}
+
+.tp-caption.tp-withaction:after{
+	content: "";
+	display: block;
+	height: 70%;
+	width: 2px;
+	background-color: #FFF;
+	z-index: 99;
+	position: absolute;
+	transform: rotate(36deg);
+    top: 5px;
+    left: 35px;
+}
+
+iframe#wufooForms1rsos1509s9sz5 {
+	min-height: 360px;
+}
+
+.tp-caption.tp-withaction.rs-toggle-content-active:after{
+	display: none !important;
+}
+
+/*body.admin-bar .sticky-menu {
+	top: 32px;
+}
+body.admin-bar .now-hiring-badge {
+	top: 42px;
+}*/
+
+
+
+
+

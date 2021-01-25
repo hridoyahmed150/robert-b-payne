@@ -1,0 +1,202 @@
+::-webkit-input-placeholder {
+    color: #333;
+    font-size: 15px;
+}
+::-moz-placeholder {
+    color: #333;
+    font-size: 15px;
+}
+:-ms-input-placeholder {
+    color: #333;
+    font-size: 15px;
+}
+:-moz-placeholder {
+    color: #333;
+    font-size: 15px;
+}
+
+#container,html.embed{
+    background:0 0
+}
+.wufoo input.file,.wufoo input.text,.wufoo select.select,.wufoo textarea.textarea{
+    font-size:100%;
+    line-height:1.6;
+    padding:8px 10px;
+    box-shadow:none!important;
+    background:#fff!important;
+    max-width:100%;
+    box-sizing:border-box;
+    color: #000;
+    border: 1px solid #6e6e6e;
+    border-radius: 0;
+}
+.safari .wufoo li.focused input.file,.wufoo label.desc,.wufoo li div,.wufoo li div label,.wufoo li span,.wufoo li span label,.wufoo li.focused div,.wufoo li.focused div label,.wufoo li.focused label.desc,.wufoo li.focused legend.desc,.wufoo li.focused span,.wufoo li.focused span label{
+    color:#525252!important;
+}
+
+.wufoo textarea.textarea{
+    min-height:100px;
+}
+.wufoo input.file:focus,
+.wufoo input.text:focus,
+.wufoo select.select:focus,
+.wufoo textarea.textarea:focus {
+    outline: none !important;
+}
+
+form li.error,
+.wufoo ul li {
+    padding: 0;
+    margin-bottom: 5px;
+}
+form li.error {
+    background: transparent !important;
+}
+form li.error {
+    text-align: right;
+}
+.wufoo li.error input.file,
+.wufoo li.error input.text,
+.wufoo li.error select.select,
+.wufoo li.error textarea.textarea {
+    border-color: #f00;
+}
+
+.wufoo ul li label.desc {
+    width: 30%;
+    background-color: transparent;
+    background-image: url(../images/arrow-form.png);
+    background-repeat: no-repeat;
+    background-position: 95% 12px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #525252 !important;
+    padding: 6px 40px 6px 0;
+    margin-bottom: 0;
+    font-size: 16px !important;
+    font-weight: 300;
+    border: 0;
+    border-radius: 0;
+    text-align: right;
+}
+
+form ul li span.req {
+    display: none !important;
+}
+form ul li:not(.buttons) > div {
+    width: 70%;
+}
+
+form ul li:not(.buttons) {
+    display: table!important;
+    width: 100% !important;
+}
+form ul li:not(.buttons) > div,
+.wufoo ul li:not(.buttons) label.desc {
+    float: left;
+    display: table-cell !important;
+    box-sizing: border-box;
+}
+
+form ul li.hide {
+    display: none !important;
+}
+
+form.wufoo {
+    padding-bottom: 0;
+}
+form li.phone>span>label{
+    display:none
+}
+form ul li{
+    margin-bottom:0
+}
+form ul li#errorLi{
+    display:none!important
+}
+form ul li.buttons{
+    text-align:left;
+}
+form ul li.buttons input#saveForm{
+    text-transform:uppercase;
+    color: #fff;
+    margin-right:0;
+    outline:0;
+    cursor:pointer;
+    transition:.3s;
+    display:inline-block;
+    text-align: center;
+    text-shadow: none;
+    border-radius: 2px;
+    background-color: #ed1f24;
+    padding: 13px 40px 13px 40px;
+    font-size: 18px;
+    font-weight: 700;
+    border: 0;
+}
+
+form ul li.has-right-btn + li.buttons {
+    text-align: right;
+}
+form ul li.has-center-btn + li.buttons{
+    text-align: center;
+}
+
+form ul li.buttons input#saveForm:active,
+form ul li.buttons input#saveForm:focus {
+    outline: none;
+}
+
+form li.buttons {
+    padding-top: 10px;
+}
+
+form ul li.buttons input#saveForm:hover{
+    color: #fff;
+    background: #ba1116;
+}
+
+input.btTxt{
+    padding:7px 15px
+}
+
+@media screen and (max-width:480px){
+
+    .wufoo ul li label.desc {
+        width: 100%;
+        text-align: left;
+        background: none;
+        width: 100%;
+        padding: 0;
+    }
+
+    form ul li:not(.buttons) {
+        display: block !important;
+        margin-bottom: 12px;
+    }
+    form ul li.hide {
+        display: none !important;
+    }
+
+    form ul li:not(.buttons) > div {
+        width: 100%;
+    }
+
+    form li.error {
+        text-align: left;
+    }
+
+    form ul li.has-right-btn + li.buttons {
+        text-align: left !important;
+    }
+    .wufoo input.file,.wufoo li:not(.phone) input.text,.wufoo select.select,.wufoo textarea.textarea{
+        width:100%!important;
+        min-width:auto!important
+    }
+    form ul li.buttons input#saveForm {
+        font-size: 16px;
+    }
+}
+.wufoo li.focused{
+    background:0 0!important;
+    outline:0!important
+}

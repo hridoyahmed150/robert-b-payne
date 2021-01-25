@@ -1,0 +1,35 @@
+//// CF7
+
+[response]
+<div class="row">
+<div class="col-md-6">
+<div class="field-cf7">[text* your-name placeholder "Nombre*"]</div>
+<div class="field-cf7">[email* your-email placeholder "Email*"]</div>
+<div class="field-cf7">[tel* your-phone placeholder "Teléfono"]</div>
+<div class="field-cf7">[text your-subject placeholder "Asunto"]</div>
+</div>
+<div class="col-md-6">
+<div class="field-cf7 cf-text-area">[textarea* your-message placeholder "Mensaje*"]</div>
+<div class="button-cf7">[submit "Enviar"]</div>
+</div>
+</div>
+
+flamingo_subject: "Contacto"
+flamingo_email: "[the-email-field]"
+flamingo_name: "[the-name-field]"
+
+//// LOOP POST TYPE
+
+<?php
+	$loop = new WP_Query( array( 'post_type' => 'post_type', 'posts_per_page' => -1 ) );
+	while ( $loop->have_posts() ) : $loop->the_post();
+?>
+	<article id="post-<?php the_ID(); ?>" class="post">
+		<div class="inner">
+			<h3><?php the_title(); ?></h3>
+			<div class="content-post">
+				<?php the_content(); ?>
+			</div>
+		</div>
+	</article>
+<?php endwhile; wp_reset_query(); ?>

@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'Freestyle Script Std';
+    src: url('../font/FreestyleScriptStd.woff2') format('woff2'),
+        url('../font/FreestyleScriptStd.woff') format('woff'),
+        url('../font/FreestyleScriptStd.ttf') format('truetype'),
+        url('../font/FreestyleScriptStd.svg#FreestyleScriptStd') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../font/HelveticaNeueBold.woff2') format('woff2'),
+    url('../font/HelveticaNeueBold.woff') format('woff'),
+    url('../font/HelveticaNeueBold.ttf') format('truetype'),
+    url('../font/HelveticaNeueBold.svg#HelveticaNeueBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../font/HelveticaNeueBlackCond.woff2') format('woff2'),
+    url('../font/HelveticaNeueBlackCond.woff') format('woff'),
+    url('../font/HelveticaNeueBlackCond.ttf') format('truetype'),
+    url('../font/HelveticaNeueBlackCond.svg#HelveticaNeueBlackCond') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../font/HelveticaNeueLight.woff2') format('woff2'),
+    url('../font/HelveticaNeueLight.woff') format('woff'),
+    url('../font/HelveticaNeueLight.ttf') format('truetype'),
+    url('../font/HelveticaNeueLight.svg#HelveticaNeueLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../font/HelveticaNeueHeavy.woff2') format('woff2'),
+    url('../font/HelveticaNeueHeavy.woff') format('woff'),
+    url('../font/HelveticaNeueHeavy.ttf') format('truetype'),
+    url('../font/HelveticaNeueHeavy.svg#HelveticaNeueHeavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../font/HelveticaNeueMedium.woff2') format('woff2'),
+    url('../font/HelveticaNeueMedium.woff') format('woff'),
+    url('../font/HelveticaNeueMedium.ttf') format('truetype'),
+    url('../font/HelveticaNeueMedium.svg#HelveticaNeueMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../font/HelveticaNeueRegular.woff2') format('woff2'),
+    url('../font/HelveticaNeueRegular.woff') format('woff'),
+    url('../font/HelveticaNeueRegular.ttf') format('truetype'),
+    url('../font/HelveticaNeueRegular.svg#HelveticaNeueRegular') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../font/HelveticaNeueItalic.woff2') format('woff2'),
+    url('../font/HelveticaNeueItalic.woff') format('woff'),
+    url('../font/HelveticaNeueItalic.ttf') format('truetype'),
+    url('../font/HelveticaNeueItalic.svg#HelveticaNeueItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../font/HelveticaNeueThin.woff2') format('woff2'),
+    url('../font/HelveticaNeueThin.woff') format('woff'),
+    url('../font/HelveticaNeueThin.ttf') format('truetype'),
+    url('../font/HelveticaNeueThin.svg#HelveticaNeueThin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+body {
+    font-family: 'HelveticaNeue', sans-serif;
+    color: #525252;
+}
+
+#banner .banner-slogan{
+    background: #32437F;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.banner-slogan h2{
+    font-family: 'Freestyle Script Std';
+    font-size: 80px;
+}
+#banner .banner-contents{
+    position: relative;
+}
+#banner .banner-contents-wrap{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.banner-content h2{
+    font-family: 'Freestyle Script Std';
+    font-size: 70px;
+    color: #32437F;
+}
+#banner .banner-bottom{
+    background: #32437F;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+

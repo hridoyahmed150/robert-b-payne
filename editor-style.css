@@ -1,0 +1,15 @@
+table{
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+table tbody tr:nth-of-type(2n+1) {
+    background-color: rgba(0,0,0,.05);
+}
+table td, table th {
+    padding: .3rem;
+}
+table td, table th{
+  border-top: 1px solid #dee2e6;
+}

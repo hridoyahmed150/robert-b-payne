@@ -1,0 +1,111 @@
+/* CUSTOM STYLE ADMIN */
+
+.admin-panel{
+	border: 1px solid #DDD;
+	margin: 30px 0 0 0;
+	padding: 0;
+	background-color: #f9f9f9;
+}
+
+.admin-panel .column{
+	padding: 0;
+	margin: 0;
+}
+
+.admin-panel .options{
+	background-color: #FFF;
+	padding: 30px 30px;
+	border-left: 1px solid #DDD;
+}
+
+.admin-panel .nav li{
+	margin: 0;
+}
+
+.admin-panel .nav-pills a{
+	border-bottom: 1px solid #DDD;
+	color: #666666;
+	font-weight: bold;
+	border-radius: 0;
+}
+
+.admin-panel .nav-pills a:focus{
+	border: none;
+	box-shadow: none;
+	border-bottom: 1px solid #DDD;
+	color: #666666;
+}
+
+.admin-panel .nav-pills a.active{
+	background-color: #FFF;
+	margin-right: -1px;
+	z-index: 10;
+	color: #666666;
+}
+
+.cmb2-metabox h1{
+	font-size: 14px;
+	margin-top: 30px;
+	color: #DDD;
+	font-weight: 700;
+	opacity: 0.8;
+}
+
+.cmb2-metabox hr{
+	margin-bottom: 15px;
+	border-top: 0;
+	border-color: #23282d;
+	opacity: 0.4;
+}
+
+.cmb2-metabox h1:first-child{
+	margin-top: 0;
+}
+
+.cmb-th,
+.cmb-th label{
+	color: #666 !important;
+	opacity: 0.8;
+	font-weight: 400 !important;
+}
+
+.cmb2-wrap input:not([type=hidden])+.button, .cmb2-wrap input:not([type=hidden])+input, .cmb2-wrap input:not([type=hidden])+select{
+	margin-left: 10px !important;
+}
+
+.postbox-container .cmb2-wrap > .cmb-field-list > .cmb-row{
+	padding: 10px 0 20px 20px !important;
+}
+
+.cmb-repeat-group-wrap .cmb-repeatable-group:not(:last-of-type),
+.cmb-repeat-group-wrap .cmb-row:not(:last-of-type),
+.postbox-container .cmb-repeatable-group:not(:last-of-type),
+.postbox-container .cmb-row:not(:last-of-type){
+	border-bottom: 1px dashed #e9e9e9 !important;
+}
+
+.postbox-container .cmb2-wrap > .cmb-field-list > .cmb-row.cmb-repeat-group-wrap{
+	padding-left: 0 !important;
+}
+
+.cmb-repeat-group-wrap .cmb-repeatable-grouping.cmb-row:not(:last-of-type){
+	border-bottom-style: solid !important;
+}
+
+.cmb-repeat-group-wrap .cmb2-wrap > .cmb-field-list > .cmb-row{
+	background-color: #DDD !important;
+}
+
+.cmb2-options-page .cmb2-wrap .cmb-row{
+	padding: 10px 0 20px 20px !important;
+}
+
+.cmb2-options-page .cmb2-wrap .cmb-row{
+	border-bottom: 1px dashed #DDD !important;
+	margin-bottom: 10px;
+}
+
+.cmb2-options-page .cmb-th,
+.cmb2-options-page .cmb-td{
+	padding: 0 !important;
+}
