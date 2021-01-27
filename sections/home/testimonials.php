@@ -1,41 +1,16 @@
 <?php
-
-
-$testimonials = get_post_meta(get_the_ID(), $landing_meta . 'testimonials', true);
-$testimonials_banner = get_post_meta(get_the_ID(), $landing_meta . 'testimonial_banner', true);
-$service_terms_image = get_post_meta(get_the_ID(), $landing_meta . 'service_terms', true);
-$service_terms_list = get_post_meta(get_the_ID(), $landing_meta . 'service_provide', true);
-
-$testimonial = $clients_name = $clients_role = '';
-
+$img_dir 		= get_template_directory_uri().'/src/images';
 ?>
-
-<div class="c20-sec c20-sec-testimonial">
+<div class="testimonial">
     <div class="container-fluid">
         <div class="row">
             <div class="px-3 px-sm-0 mb-4 mb-sm-5 m-md-0 wh-right aos-init aos-animate" data-aos-delay="600" data-aos-duration="800" data-aos="fade-right">
                 <div class="wh-image-wrap">
-
-                    <?php if ($service_terms_image): ?>
                         <img class="lozad"
-                             data-src="https://www.reicheltplumbing.com/wp-content/themes/reicheltplumbing/assets/img/larege-van.png"
                              alt="Service Van"
-                             src="<?php echo $service_terms_image?>"
-                             data-loaded="true">
-                    <?php endif ?>
+                             src="<?php echo $img_dir;?>/review.png"
+                             data-loaded="true">?>
                 </div>
-            </div>
-            <div class="wh-left">
-                <?php
-                    foreach ( (array) $service_terms_list as $service_list ):
-                        $service_list_title =  $service_list[$landing_meta.'service_title'];
-
-                ?>
-                    <div class="point d-flex align-items-center">
-                        <span class="label-circle pt-3 px-3"></span>
-                        <h5 class="my-0 ml-3 text-blue"><?php echo $service_list_title?></h5>
-                    </div>
-                <?php endforeach;?>
             </div>
         </div>
     </div>

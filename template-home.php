@@ -24,9 +24,12 @@ while ( have_posts() ) : the_post();
 
     include 'sections/home/banner.php';
 
-    include 'sections/home/utility.php';
+    include 'sections/home/contact.php';
 
     include 'sections/home/content.php';
+
+    include 'sections/home/utility.php';
+
 
     include 'sections/home/testimonials.php';
 

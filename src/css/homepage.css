@@ -107,6 +107,7 @@ body {
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: 2;
 }
 #banner .banner-slogan{
     background: #32437F;
@@ -145,6 +146,18 @@ body {
     width: 100%;
 }
 
+.banner-content-right h3{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.red-color{
+    color: #DA1A32;
+}
+.font-size-40{
+    font-size: 40px;
+}
+
 .homepage-button{
     background: #C21B1E;
     border: 4px solid #FFFFFF;
@@ -163,7 +176,117 @@ body {
     border-radius: 0;
 }
 
+/*contact section*/
+.contact{
+    background-image: linear-gradient(#cfd5ea 0%, rgba(255,255,255,0) 100%);
+    position: relative;
+    padding: 100px 0px;
+}
+.contact:before{
+    position: absolute;
+    content: "";
+    top: -57px;
+    left: -10px;
+    width: 50%;
+    height: 81px;
+    background: #da1a32;
+    transform: rotate(-3deg);
+    z-index: 1;
+}
+.contact:after{
+    right: 1px;
+    width: 60%;
+    background: #2c3a6e;
+    position: absolute;
+    content: "";
+    top: -57px;
+    height: 77px;
+    transform: rotate(2deg);
+}
 
+.contact .contact-left h2{
+    font-size: 40px;
+    color: #DA1A32;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.contact .contact-left h3{
+    font-size: 24px;
+    color: #0068A7;
+    text-transform: uppercase;
+    line-height: 42px;
+}
+.contact .contact-left-bottom h2{
+    font-size: 36px;
+    color: #0068A7;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.contact .form{
+    background: #FFFFFF;
+    opacity: .7;
+}
+.contact .form .form-title{
+    color: #C21B1E;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+
+/*review section*/
+
+.testimonial{
+    background: #293768;
+}
+
+/* Extra large devices (large laptops and desktops, 1440px and up) */
+@media only screen and (max-width: 1440px) {
+    .banner-slogan h2 {
+        font-size: 70px;
+    }
+    .banner-heading {
+        font-size: 60px;
+    }
+    .banner-content-right h3{
+        font-size: 35px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    #banner .banner-contents {
+        padding: 100px 0 160px;
+    }
+    .banner-slogan h2 {
+        font-size: 55px;
+    }
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .banner-slogan h2 {
+        font-size: 40px;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
 
 
 
