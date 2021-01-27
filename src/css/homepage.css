@@ -330,11 +330,6 @@ section.service{
     display: block;
 }
 
-body {
-    padding: 0;
-    margin: 0;
-}
-
 .tabs {
     width: 500px;
     list-style-type: none;
@@ -417,6 +412,27 @@ body {
     font-size: 28px;
 }
 
+/* Extra large devices (large laptops and desktops, 1440px and up) */
+@media only screen and (max-width: 1600px) {
+    .slide-content{
+        width: 37%;
+        top: 7%;
+        left: 3%;
+    }
+    .slide-content img{
+        width: 50%;
+    }
+    .slide-content h2{
+        font-size: 46px;
+    }
+    .slide-content h3{
+        font-size: 28px;
+    }
+    .slide-content h4{
+        font-size: 25px;
+    }
+}
+
 
 /* Extra large devices (large laptops and desktops, 1440px and up) */
 @media only screen and (max-width: 1440px) {
@@ -429,17 +445,67 @@ body {
     .banner-content-right h3{
         font-size: 35px;
     }
+
+    .slide-content{
+        width: 37%;
+        top: 7%;
+        left: 3%;
+    }
+    .slide-content img{
+        width: 50%;
+    }
+    .slide-content h2{
+        font-size: 36px;
+    }
+    .slide-content h3{
+        font-size: 24px;
+    }
+    .slide-content h4{
+        font-size: 20px;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (max-width: 1200px) {
-
+    .slide-content{
+        width: 40%;
+        top: 4%;
+        left: 5%;
+    }
+    .slide-content img{
+        width: 50%;
+    }
+    .slide-content h2{
+        font-size: 32px;
+    }
+    .slide-content h3{
+        font-size: 22px;
+    }
+    .slide-content h4{
+        font-size: 18px;
+    }
 }
 
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
-
+    .slide-content{
+        width: 45%;
+        top: 4%;
+        left: 3%;
+    }
+    .slide-content img{
+        width: 50%;
+    }
+    .slide-content h2{
+        font-size: 28px;
+    }
+    .slide-content h3{
+        font-size: 20px;
+    }
+    .slide-content h4{
+        font-size: 16px;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -449,6 +515,29 @@ body {
     }
     .banner-slogan h2 {
         font-size: 55px;
+    }
+    .slide-content{
+        position: relative;
+        width: 100%;
+        text-align: center;
+        background: #293768;
+        padding: 20px;
+        left: 0;
+    }
+    .slide-content img{
+        width: 50%;
+    }
+    .slide-content h2{
+        font-size: 28px;
+    }
+    .slide-content h3{
+        font-size: 20px;
+    }
+    .slide-content h4{
+        font-size: 16px;
+    }
+    .customNavigation .btn{
+        top: 20%;
     }
 }
 

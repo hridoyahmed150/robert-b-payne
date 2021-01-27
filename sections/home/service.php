@@ -16,13 +16,13 @@ $img_dir = get_template_directory_uri() . '/src/images';
         <a class="btn next"><img src="<?php echo $img_dir;?>/next-arrow.png" alt="prev-arrow"></a>
     </div>
     <div class="slide-content text-center">
-        <img class="pb-3" src="<?php echo $img_dir;?>/slide-content-logo.png" alt="slide-content-logo">
-        <h2 class="pb-3 text-uppercase text-white">UNSTOPPABLE DEALS</h2>
+        <img class="pb-xl-3 pb-lg-2" src="<?php echo $img_dir;?>/slide-content-logo.png" alt="slide-content-logo">
+        <h2 class="pb-xl-3 pb-lg-2 text-uppercase text-white">UNSTOPPABLE DEALS</h2>
         <h4 class="text-uppercase pb-2 mb-2 border-bottom text-white">FROM YOUR UNSTOPPABLE TRANE
             COMFORT SPECIALIST DEALER </h4>
-        <h3 class="text-uppercase pb-3 text-white">O% FINANCING FOR 60 MONTH*</h3>
-        <h3 class="text-uppercase pb-3 text-white">PLUS UP TO</h3>
-        <h3 class="text-uppercase mb-5 text-white">$500 IN TRADE-IN ALLOWANCES**</h3>
+        <h3 class="text-uppercase pb-xl-3 pb-lg-2 text-white">O% FINANCING FOR 60 MONTH*</h3>
+        <h3 class="text-uppercase pb-xl-3 pb-lg-2 text-white">PLUS UP TO</h3>
+        <h3 class="text-uppercase mb-3 text-white">$500 IN TRADE-IN ALLOWANCES**</h3>
         <a href="#" class="homepage-button px-2 py-1 text-white">More Info</a>
     </div>
     <!--    <div class="container-fluid p-0">-->
