@@ -127,6 +127,7 @@ function theme_scripts()  {
 	wp_register_script( 'theme-scrolltofixed', get_template_directory_uri() . '/js/jquery.scrolltofixed.min.js', array('jquery'), $version, true );
 	wp_register_script( 'theme-wow', get_template_directory_uri() . '/js/wow.min.js', array('jquery'), $version, true );
 	wp_register_script( 'theme-main', get_template_directory_uri() . '/js/main.js', array('jquery'), $version, true );
+	wp_register_script( 'theme-homepage', get_template_directory_uri() . '/src/js/homepage.js', array('jquery'), $version, true );
 
 
 
@@ -160,6 +161,7 @@ function theme_scripts()  {
 	wp_enqueue_script( 'theme-scrolltofixed');
 	wp_enqueue_script( 'theme-wow');
 	wp_enqueue_script( 'theme-main');
+	wp_enqueue_script( 'theme-homepage');
 
 }
 add_action( 'wp_enqueue_scripts', 'theme_scripts' ); // Register this fxn and allow Wordpress to call it automatcally in the header

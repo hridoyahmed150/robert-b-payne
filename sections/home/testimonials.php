@@ -4,142 +4,113 @@ $img_dir 		= get_template_directory_uri().'/src/images';
 <div class="testimonial">
     <div class="container-fluid">
         <div class="row">
-            <div class="px-3 px-sm-0 mb-4 mb-sm-5 m-md-0 wh-right aos-init aos-animate" data-aos-delay="600" data-aos-duration="800" data-aos="fade-right">
-                <div class="wh-image-wrap">
-                        <img class="lozad"
-                             alt="Service Van"
-                             src="<?php echo $img_dir;?>/review.png"
-                             data-loaded="true">?>
-                </div>
+            <div class="col-xl-6 testimonial-list mb-sm-5 mb-xl-0">
+                <h3>
+                    B sure with Robert B Payne
+                </h3>
+                <ul>
+                    <li class="d-flex align-items-center pb-3">
+                        <img src="<?php echo $img_dir;?>/star.png" alt="star">
+                        <p class="pl-4 m-0 d-inline-block">Priority Customer status</p>
+                    </li>
+                    <li class="d-flex align-items-center pb-3">
+                        <img src="<?php echo $img_dir;?>/star.png" alt="star">
+                        <p class="pl-4 m-0 d-inline-block">Increases comfort</p>
+                    </li>
+                    <li class="d-flex align-items-center pb-3">
+                        <img src="<?php echo $img_dir;?>/star.png" alt="star">
+                        <p class="pl-4 m-0 d-inline-block">Supports lower utility cost</p>
+                    </li>
+                    <li class="d-flex align-items-center pb-3">
+                        <img src="<?php echo $img_dir;?>/star.png" alt="star">
+                        <p class="pl-4 m-0 d-inline-block">Reduces unexpected failures</p>
+                    </li>
+                    <li class="d-flex align-items-center pb-3">
+                        <img src="<?php echo $img_dir;?>/star.png" alt="star">
+                        <p class="pl-4 m-0 d-inline-block">Prolongs equipment life</p>
+                    </li>
+                    <li class="d-flex align-items-center pb-3">
+                        <img src="<?php echo $img_dir;?>/star.png" alt="star">
+                        <p class="pl-4 m-0 d-inline-block">Choice of plans</p>
+                    </li>
+                    <li class="d-flex align-items-center pb-3">
+                        <img src="<?php echo $img_dir;?>/star.png" alt="star">
+                        <p class="pl-4 m-0 d-inline-block">Helps ensure safety of family</p>
+                    </li>
+
+                </ul>
+                <a href="#" class="homepage-button px-3 py-2">View all</a>
+            </div>
+            <div class="col-xl-6 testimonial-image">
+                <img class="lozad" alt="Service Van" src="<?php echo $img_dir;?>/review.png" data-loaded="true">
             </div>
         </div>
     </div>
 </div>
 
-<div class="c20-sec-our-client">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-xs-12 d-flex justify-content-between align-items-center flex-wrap">
-                <div class="client py-3">
-                    <img src="<?php echo $img_dir; ?>/client-1.png" alt="client">
-                </div>
-                <div class="client py-3">
-                    <img src="<?php echo $img_dir; ?>/client-2.png" alt="client">
-                </div>
-                <div class="client py-3">
-                    <img src="<?php echo $img_dir; ?>/client-3.png" alt="client">
-                </div>
-                <div class="client py-3">
-                    <img src="<?php echo $img_dir; ?>/client-4.png" alt="client">
-                </div>
-                <div class="client py-3">
-                    <img src="<?php echo $img_dir; ?>/client-5.png" alt="client">
-                </div>
-                <div class="client py-3">
-                    <img src="<?php echo $img_dir; ?>/client-6.png" alt="client">
-                </div>
-                <div class="client py-3">
-                    <img src="<?php echo $img_dir; ?>/client-7.png" alt="client">
-                </div>
-                <div class="client py-3">
-                    <img src="<?php echo $img_dir; ?>/client-8.png" alt="client">
-                </div>
-                <div class="client py-3">
-                    <img src="<?php echo $img_dir; ?>/client-9.png" alt="client">
-                </div>
-                <div class="client py-3">
-                    <img src="<?php echo $img_dir; ?>/client-10.png" alt="client">
-                </div>
-                <div class="client py-3">
-                    <img src="<?php echo $img_dir; ?>/client-11.png" alt="client">
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="c20-sec py-5 c20-sec-review">
-
-
+<section class="client-review">
     <div class="container">
-
-
-        <div class="row has-image-bg review-content" style="background-image: url(<?php echo $img_dir;?>/review-bg.png)">
-
-            <div class="col-sm-12 col-lg-6 c20-sec-review-inner mt-3 d-flex flex-column justify-content-start">
-                <div class="group-review text-center mb-5 d-flex justify-content-center">
-                    <div class="facebook-review media-review px-3">
-                        <img src="<?php echo $img_dir; ?>/ionsocialfacebook.png" alt="">
-                        <p class="text-white m-0" >Facebook</p>
+        <div class="row">
+            <div class="col-lg-8 text-center">
+                <div class="pt-5">
+                    <img src="<?php echo $img_dir;?>/star.png" alt="star">
+                    <img src="<?php echo $img_dir;?>/star.png" alt="star">
+                    <img src="<?php echo $img_dir;?>/star.png" alt="star">
+                    <img src="<?php echo $img_dir;?>/star.png" alt="star">
+                    <img src="<?php echo $img_dir;?>/star.png" alt="star">
+                </div>
+                <p class="pt-5 text-white">
+                    “Purchased a new TRANE system 3 years ago From Robert B. Payne, Inc. Have had 3 service calls (regular tune-ups) since then. System is flawless, service is unmatched by any other business of any kind I have ever dealt with. Words fail me to describe how pleased I am with this company...”
+                    <strong class="pt-3 d-block">by Steve</strong>
+                </p>
+                <div class="bbb row">
+                    <div class="col-lg-4 mb-sm-3 d-flex align-items-center justify-content-center">
+                        <a href="#"><img src="<?php echo $img_dir; ?>/accreditations.png" alt="bbb reating image"></a>
+                    </div>
+                    <div class="col-lg-5 mb-sm-3 d-flex align-items-center justify-content-center">
+                        <a href="#" class="homepage-button px-3 py-2 mx-3">Read more reviews</a>
+                    </div>
+                    <div class="col-lg-3 mb-sm-3 d-flex align-items-center justify-content-center">
+                        <a href="#" class="homepage-button px-3 py-2" >Leave Review</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 p-1">
+                <div class="row pb-5">
+                    <div class="col-8 facebook-review media-review px-3 text-center">
+                        <img src="<?php echo $img_dir;?>/facebook.png" alt="facebook logo">
+                        <p class="text-white m-0">Facebook</p>
                         <p class="text-white m-0">5</p>
-                        <img class="star" src="<?php echo $img_dir;?>/control/testimonial-star.png" alt="">
+                        <img class="star" src="<?php echo $img_dir;?>/star2.png" alt="star">
+                        <img class="star" src="<?php echo $img_dir;?>/star2.png" alt="star">
+                        <img class="star" src="<?php echo $img_dir;?>/star2.png" alt="star">
+                        <img class="star" src="<?php echo $img_dir;?>/star2.png" alt="star">
+                        <img class="star" src="<?php echo $img_dir;?>/star2.png" alt="star">
                         <p class="review-count text-white m-0">12 + Reviews</p>
                     </div>
-                    <div class="facebook-review media-review px-3">
-                        <img src="<?php echo $img_dir; ?>/Bitmap.png" alt="">
-                        <p class="text-white m-0">Yelp</p>
-                        <p class="rating text-white m-0">5</p>
-                        <img class="star" src="<?php echo $img_dir;?>/control/testimonial-star.png" alt="">
-                        <p class="review-count text-white m-0">12 + Reviews</p>
-                    </div>
-                    <div class="facebook-review media-review px-3">
-                        <img src="<?php echo $img_dir; ?>/googleFontAwesome.png" alt="">
-                        <p class="text-white m-0">Google</p>
-                        <p class="rating text-white m-0">5</p>
-                        <img class="star" src="<?php echo $img_dir;?>/control/testimonial-star.png" alt="">
-                        <p class="review-count text-white m-0">12 + Reviews</p>
+                    <div class="bb-logo col-4">
+                        <a href="#"><img src="<?php echo $img_dir?>/bb-logo.png" alt="bb-logo"></a>
                     </div>
                 </div>
-                <div class="review-logo text-center">
-                    <img src="<?php echo $img_dir;?>/review-logo.png" alt="review-logo">
+                <div class="row">
+                    <div class="col-8 facebook-review media-review px-3 text-center">
+                        <img src="<?php echo $img_dir;?>/google.png" alt="google logo">
+                        <p class="text-white m-0">Facebook</p>
+                        <p class="text-white m-0">5</p>
+                        <img class="star" src="<?php echo $img_dir;?>/star2.png" alt="star">
+                        <img class="star" src="<?php echo $img_dir;?>/star2.png" alt="star">
+                        <img class="star" src="<?php echo $img_dir;?>/star2.png" alt="star">
+                        <img class="star" src="<?php echo $img_dir;?>/star2.png" alt="star">
+                        <img class="star" src="<?php echo $img_dir;?>/star2.png" alt="star">
+                        <p class="review-count text-white m-0">12 + Reviews</p>
+                    </div>
+                    <div class="bb-logo col-4">
+                        <a href="#"><img src="<?php echo $img_dir?>/bb-logo.png" alt="bb-logo"></a>
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-12 mt-4 mt-lg-0 col-lg-6 c20-sec-review-slider">
-                <?php if ($testimonials) : ?>
-
-                    <div class="testimonial-slider" data-aos-duration="500" data-aos-delay="400"
-                         data-aos="fade-up">
-
-                        <div class="testimonial-slider-init mb-4">
-
-                            <?php foreach ((array)$testimonials as $key => $testimonial_data) :
-
-                                $testimonial = $testimonial_data[$landing_meta . 'testimonial'];
-                                $clients_name = $testimonial_data[$landing_meta . 'clients_name']; ?>
-
-                                <div class="testimonial-slide">
-
-                                    <div class="testimonial-text">
-                                        <h6 class="text-white font-italic"><?php echo $testimonial; ?></h6>
-                                    </div>
-
-                                    <div class="testimonial-info">
-                                        <div class="testimonial-title text-white font-italic">- <?php echo $clients_name; ?></div>
-                                    </div>
-
-                                </div>
-
-                            <?php endforeach; ?>
-                        </div>
-                        <div class="paginator position-relative">
-                            <span class="prev position-absolute d-flex justify-content-center align-items-center">
-                                <img src="<?php echo $img_dir; ?>/control/btn-arrow.png" alt="arrow">
-                            </span>
-                            <span class="next position-absolute d-flex justify-content-center align-items-center">
-                                <img src="<?php echo $img_dir; ?>/control/btn-arrow.png" alt="arrow">
-                            </span>
-                        </div>
-                    </div>
-
-                <?php endif; ?>
-            </div>
-
         </div>
     </div>
-</div>
-<?php if ($testimonials_banner) : ?>
-    <div class="c20-sec c20-review-img has-image-bg " style="background-image: url(<?php echo $testimonials_banner ?>)">
-    </div>
-<?php endif; ?>
+</section>
 
 <!-- end section -->

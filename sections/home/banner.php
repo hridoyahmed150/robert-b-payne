@@ -19,10 +19,10 @@
                     <div class="col-md-6  d-flex align-items-center banner-content-right">
                         <div class="container">
                             <div class="row">
-                                <div class="col-lg-2 text-center">
+                                <div class="col-lg-3 text-center">
                                     <img src="<?php echo $image;?>/logo.png" alt="logo">
                                 </div>
-                                <div class="col-lg-10 text-center">
+                                <div class="col-lg-9 text-center">
                                     <h3 class="mb-3 red-color">Robert B. Payne, Inc.</h3>
                                     <a href="#" class="btn homepage-button px-sm-2 px-lg-5 py-2">
                                         Free Replacement Estimates
